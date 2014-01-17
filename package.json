@@ -1,0 +1,22 @@
+{
+    "name": "wx.mymirror.com",
+    "description": "this is our wx interface",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "3.4.4",
+        "jade":"0.35.0",
+        "ndir": "0.1.5",
+        "mysql":"2.0.x",
+        "socket.io": "~0.9.16",
+        "connect-redis": "1.4.x",
+        "orm": "2.1.3",
+        "log4js":"0.6.9",
+        "orm-transaction":"0.0.2",
+        "underscore":"1.5.2",
+        "moment":"2.4.0"
+    },
+    "engines": {
+        "node": ">= 0.10.0",
+        "npm": ">= 1.0"
+    }
+}

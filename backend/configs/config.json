@@ -1,0 +1,45 @@
+{
+    "webdomain": "www.suntixx.com:8088",
+    "resetPwdValidHour": 2,
+    "session": {
+        "secret": "yourbestsecret"
+    },
+    "app": {
+        "port": 8088,
+        "uploadPath": "upload_tmp"
+    },
+    "theme": {
+        "name": "default"
+    },
+    "mysqlConnection": "mysql://suntixx123:1234ABcd@127.0.0.1:3306/suntixx",
+    "publicfolder": [
+        ["/", "../public"],
+        ["/locales/", "../locales"],
+        ["/pdf/", "../templates/pdf"]
+    ],
+    "mailconfig": {
+        "host": "suntixx.com",
+        "port": 587,
+        "use_authentication": true,
+        "user": "webmaster@suntixx.com",
+        "pass": "Password1"
+    },
+    "paypalConfig": {
+        "host": "api.paypal.com",
+        "port": "",
+        "client_id": "AcrD2hBfccAOZ5yjNum7YtVjhGSEd-G3fExIUHy-1_EpFYwARcG8SGkK5U0N",
+        "client_secret": "ELcoEhAwXcLnVO3d6W4wifOK6sqsPdNKf4G-b4MzLx7XmbUKQkUOwoZ56sjk"
+    },
+    "paypalRedirectURL": {
+        "return_url": "api/payments/paypal/success",
+        "cancel_url": "api/payments/paypal/failed"
+    },
+    "paymentfee": {
+        "transactionFeeRate": 0.05,
+        "transactionFeeFixed": 0.83,
+        "conversionRate": 6.45
+    },
+    "admin": {
+        "email": "admin@suntixx.com"
+    }
+}
